@@ -201,10 +201,6 @@ footer {
         font-size: 1.5rem;
     }
 
-    .box1 {
-        height: 50vh;
-    }
-
     .box1 div {
         padding: 24px;
         border-radius: 15px;
@@ -229,13 +225,22 @@ footer {
         font-size: 1rem;
     }
 
+    .box1 {
+        height: 60vh;
+    }
+
     .box1 div {
-        padding: 18px;
+        padding: 14px;
         border-radius: 10px;
     }
 
     .box1 img {
         width: 5vw;
+    }
+
+    .box2 , .box3, .box4, .box5, .box6 {
+        padding: 3vh 2vh;
+        box-shadow: 0px 1px 2px black;
     }
 
     .ajuste-largura-img {
