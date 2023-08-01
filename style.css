@@ -111,16 +111,12 @@ main {
     background-color: rgb(225, 225, 225)
 }
 
-.ajuste-largura{
+.ajuste-largura-img{
     width: 20vw;
-    margin-left: 16px;
-    margin-top: 20px;
 }
 
-.ajuste-altura{
+.ajuste-altura-img{
     height: 22vh;
-    margin-left: 16px;
-    margin-top: 20px;
 }
 
 .conteineres {
@@ -136,15 +132,22 @@ main {
     box-shadow: 0px 1px 2px black;
 }
 
+main figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 main ul {
     display: flex;
     flex-direction: column;
     margin: 20px 32px;
     font-family: "Roboto";
+    text-align: justify;
 }
 
 main h2 {
-    margin-bottom: 2vw;
+    margin-bottom: 20px;
     font-size: 2rem;
     font-family: "Roboto";
     background-color: black;
@@ -152,17 +155,19 @@ main h2 {
     padding: 16px;
     border-radius: 10px;
 }
+
 main h3 {
     font-family: "Roboto";
-    margin-bottom: 1vh;
+    padding-bottom: 20px;
     font-size: 1.5rem;
-    margin-left: 16px;
+    margin: 0 16px;
 }
 
 .conteineres p {
     font-family: "Roboto";
     font-size: 1rem;
-    margin-left: 16px;
+    margin: 0 16px;
+    text-align: justify;
 }
 
 span {
@@ -204,14 +209,23 @@ footer {
         width: 4vw;
     }
 
-    .ajuste-largura{
+    .ajuste-largura-img {
         width: 30vw;
     }
 }
 
 @media (max-width:750px) {
+
+    .conteineres {
+        width: 90%;
+    }
+
     h1 {
         font-size: 1rem;
+    }
+
+    .box1 {
+        height: 50vh;
     }
 
     .box1 div {
@@ -223,7 +237,16 @@ footer {
         width: 5vw;
     }
 
-    .ajuste-largura{
+    .ajuste-largura-img {
         width: 48vw;
+    }
+
+    main h2 {
+        font-size: 1.5rem;
+    }
+
+    main h3 {
+        font-size: 1.2rem;
+        font-weight: 700;
     }
 }
