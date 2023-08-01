@@ -201,6 +201,10 @@ footer {
         font-size: 1.5rem;
     }
 
+    .box1 {
+        height: 50vh;
+    }
+
     .box1 div {
         padding: 24px;
         border-radius: 15px;
@@ -218,7 +222,7 @@ footer {
 @media (max-width:750px) {
 
     .conteineres {
-        width: 90%;
+        width: 90vw;
     }
 
     h1 {
