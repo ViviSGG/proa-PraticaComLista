@@ -134,10 +134,9 @@ main {
 
 main figure {
     display: flex;
-    width: 80vw;
+    width: 77vw;
     align-items: center;
     justify-content: center;
-    border: 2px solid pink;
 }
 
 main ul {
