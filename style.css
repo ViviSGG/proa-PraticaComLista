@@ -114,11 +114,13 @@ main {
 .ajuste-largura{
     width: 20vw;
     margin-left: 16px;
+    margin-top: 20px;
 }
 
 .ajuste-altura{
     height: 22vh;
     margin-left: 16px;
+    margin-top: 20px;
 }
 
 .conteineres {
@@ -137,7 +139,7 @@ main {
 main ul {
     display: flex;
     flex-direction: column;
-    margin: 32px;
+    margin: 20px 32px;
     font-family: "Roboto";
 }
 
