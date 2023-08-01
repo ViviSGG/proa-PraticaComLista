@@ -68,8 +68,8 @@ header a {
 .box1 div {
     display: flex;
     background-color: black;
-    padding: 46px;
-    border-radius: 40px;
+    padding: 40px;
+    border-radius: 20px;
     align-items: center;
     justify-content: center;
 }
@@ -121,7 +121,7 @@ main {
 
 .conteineres {
     display: flex;
-    width: 80%;
+    width: 80vw;
     flex-direction: column;
     align-items: center;
     background-color: white;
@@ -134,8 +134,10 @@ main {
 
 main figure {
     display: flex;
+    width: 80vw;
     align-items: center;
     justify-content: center;
+    border: 2px solid pink;
 }
 
 main ul {
@@ -202,7 +204,7 @@ footer {
 
     .box1 div {
         padding: 24px;
-        border-radius: 20px;
+        border-radius: 15px;
     }
 
     .box1 img {
@@ -224,13 +226,9 @@ footer {
         font-size: 1rem;
     }
 
-    .box1 {
-        height: 50vh;
-    }
-
     .box1 div {
         padding: 18px;
-        border-radius: 20px;
+        border-radius: 10px;
     }
 
     .box1 img {
